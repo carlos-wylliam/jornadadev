@@ -36,7 +36,24 @@ function Video() {
         ref={videoRef}
         onClick={handdleStart}
         loop
-        src="https://webapp-va.tiktok.com/4961ffbe89309fe8c6b45801c5919492/64251cf7/kmoat/tos-useast2a-pve-0068/o4IzeeQgSqA8GDP8uBjZZnbfwNnWCCEoWg7HTc?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C0%7C0&br=2574&bt=1287&cs=0&ds=6&ft=Ap6JtBiTq8ZmoA9eCc_vj_vQ8AhLrus&mime_type=video_mp4&qs=0&rc=NXZpTGRTaFBnKWZzZXpoaGRmZ2hlN2g4Z2RmZGdoNzg4NkBpamY5aTk6Zmk6aTMzNzczM0BTbGt2aXFEOmpoXitiK2p0OiMwLmNfMjY2NjAxXl4xNl4wYSNlanNecjRnZzRgLS1kMTZzcw%3D%3D&btag=80000&dpk=k18umEwajZQ9TnsGfPjGVXx3u8%2BgTt2OtevEylruvvtRUcxi8ZH05SLONOdUro0bQkB2wsny5cDyCEZVHJhAs8Y7SomsY0c8EiiZbw%3D%3D&dpm=cenc-aes-ctr&l=20230329232351DC6E5BBDC7A9A1805521&ply_type=3&policy=eyJ2bSI6MywidWlkIjoiNjgxNDg0OTc1ODY2ODMwOTUxMCJ9"
+        src="https://webapp-va.tiktok.com/
+        4961ffbe89309fe8c6b45801c5919492/64
+        251cf7/kmoat/tos-useast2a-pve-0068/
+        o4IzeeQgSqA8GDP8uBjZZnbfwNnWCCEoWg7
+        HTc?a=1988&ch=0&cr=0&dr=0&lr=tiktok_
+        m&cd=0%7C0%7C0%7C0&br=2574&bt=1287&cs=
+        0&ds=6&ft=Ap6JtBiTq8ZmoA9eCc_vj_vQ8AhL
+        rus&mime_type=video_mp4&qs=0&rc=NXZpTG
+        RTaFBnKWZzZXpoaGRmZ2hlN2g4Z2Rm
+        ZGdoNzg4NkBpamY5aTk6Zmk6aTMzNzczM0BTbGt
+        2aXFEOmpoXitiK2p0OiMwLmNfMjY2NjAxXl4xNl
+        4wYSNlanNecjRnZzRgLS1kMTZzcw%3D%3D&btag
+        =80000&dpk=k18umEwajZQ9TnsGfPjGVXx3u8%2B
+        gTt2OtevEylruvvtRUcxi8ZH05SLONOdUro0bQkB
+        2wsny5cDyCEZVHJhAs8Y7SomsY0c8EiiZbw%3D%3
+        D&dpm=cenc-aes-ctr&l=20230329232351DC6E5
+        BBDC7A9A1805521&ply_type=3&policy=eyJ2bS
+        I6MywidWlkIjoiNjgxNDg0OTc1ODY2ODMwOTUxMCJ9"
       ></video>
     </div>
   );
