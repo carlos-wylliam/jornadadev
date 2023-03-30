@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./video.css";
-
+// O useRef é um gancho que permite criar diretamente uma referência  ao elemento DOM no componente funcional
+//useState serve de gerenciamento de estado true e false
 // função para dar play e pausar o vídeo
 function Video() {
   const videoRef = useRef(null);
