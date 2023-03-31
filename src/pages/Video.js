@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./video.css";
+import VideoFooter from "./components/footer/VideoFooter"
+
 // O useRef é um gancho que permite criar diretamente uma referência  ao elemento DOM no componente funcional
 //useState serve de gerenciamento de estado true e false
 // função para dar play e pausar o vídeo
@@ -37,25 +39,9 @@ function Video() {
         ref={videoRef}
         onClick={handdleStart}
         loop
-        src="https://webapp-va.tiktok.com/
-        4961ffbe89309fe8c6b45801c5919492/64
-        251cf7/kmoat/tos-useast2a-pve-0068/
-        o4IzeeQgSqA8GDP8uBjZZnbfwNnWCCEoWg7
-        HTc?a=1988&ch=0&cr=0&dr=0&lr=tiktok_
-        m&cd=0%7C0%7C0%7C0&br=2574&bt=1287&cs=
-        0&ds=6&ft=Ap6JtBiTq8ZmoA9eCc_vj_vQ8AhL
-        rus&mime_type=video_mp4&qs=0&rc=NXZpTG
-        RTaFBnKWZzZXpoaGRmZ2hlN2g4Z2Rm
-        ZGdoNzg4NkBpamY5aTk6Zmk6aTMzNzczM0BTbGt
-        2aXFEOmpoXitiK2p0OiMwLmNfMjY2NjAxXl4xNl
-        4wYSNlanNecjRnZzRgLS1kMTZzcw%3D%3D&btag
-        =80000&dpk=k18umEwajZQ9TnsGfPjGVXx3u8%2B
-        gTt2OtevEylruvvtRUcxi8ZH05SLONOdUro0bQkB
-        2wsny5cDyCEZVHJhAs8Y7SomsY0c8EiiZbw%3D%3
-        D&dpm=cenc-aes-ctr&l=20230329232351DC6E5
-        BBDC7A9A1805521&ply_type=3&policy=eyJ2bS
-        I6MywidWlkIjoiNjgxNDg0OTc1ODY2ODMwOTUxMCJ9"
+        src="https://firebasestorage.googleapis.com/v0/b/jornadadevtr.appspot.com/o/WhatsApp%20Video%202023-03-29%20at%2020.04.52.mp4?alt=media&token=db4be029-27cc-4af9-b75d-3ce5fd1b1fe2"
       ></video>
+<VideoFooter />
     </div>
   );
 }
