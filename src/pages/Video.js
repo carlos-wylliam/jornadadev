@@ -1,11 +1,12 @@
 import React, { useRef, useState } from "react";
 import "./video.css";
-import VideoFooter from "./components/footer/VideoFooter"
+import VideoFooter from "./components/footer/VideoFooter";
+import VideoSidebar from "./components/sidebar/VideoSidebar"
 
 // O useRef é um gancho que permite criar diretamente uma referência  ao elemento DOM no componente funcional
 //useState serve de gerenciamento de estado true e false
 // função para dar play e pausar o vídeo
-function Video() {
+function Video({likes, messagens, shares, name, description, music, url}) {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
   //  video parado = falso, logo se eu der play ele sendo falso ele dar start
@@ -24,7 +25,7 @@ function Video() {
     // se por if(!play) é considerado o contrario de false que é true
     if (play) {
       videoRef.current.pause();
-      setPlay(false);   
+      setPlay(false);
     } else {
       videoRef.current.play();
       setPlay(true);
@@ -39,9 +40,16 @@ function Video() {
         ref={videoRef}
         onClick={handdleStart}
         loop
-        src="https://firebasestorage.googleapis.com/v0/b/jornadadevtr.appspot.com/o/WhatsApp%20Video%202023-03-29%20at%2020.04.52.mp4?alt=media&token=db4be029-27cc-4af9-b75d-3ce5fd1b1fe2"
+        src={url}
       ></video>
-<VideoFooter />
+      <VideoSidebar 
+      likes={likes}
+      messagens={messagens}
+      shares={shares}/>
+      <VideoFooter
+      name={name}
+      description={description}
+      music={music} />
     </div>
   );
 }
