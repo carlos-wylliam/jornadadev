@@ -45,3 +45,12 @@ p {
     transform: translatex(-100%);
   }
 }
+
+@media only screen and  (max-width: 440px){
+  .video__footer{
+    bottom: 22%;
+  }
+  .VideoMusicFooter__text{
+    width: 78%;
+  }
+}
